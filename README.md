@@ -55,16 +55,24 @@ Este proyecto permite recolectar, analizar y visualizar los sentimientos de los 
 
 ## 📂 Estructura del Proyecto
 
+```
 trump_tariffs_sentiment/
-├── main.py              # Script principal: orquesta la recolección y análisis
-├── twitter_api.py       # Módulo para autenticación con la API de Twitter
-├── sentiment.py         # Lógica de análisis de sentimientos con TextBlob/VADER
-├── storage.py           # Funciones para guardar los datos (CSV, Sheets, Mongo)
-├── dashboard.py         # Dashboard interactivo con Streamlit
-├── requirements.txt     # Lista de dependencias del proyecto
-└── README.md            # Documentación general del proyecto
-
-
+|-- data/                # Carpeta para almacenar datos (CSV, JSON, etc.)
+|-- notebooks/           # Jupyter Notebooks para análisis exploratorio
+|-- src/                 # Código fuente del proyecto
+|   |-- __init__.py      # Archivo de inicialización del paquete
+|   |-- main.py          # Script principal: orquesta la recolección y análisis
+|   |-- twitter_api.py   # Módulo para autenticación con la API de Twitter
+|   |-- sentiment.py     # Lógica de análisis de sentimientos con TextBlob/VADER
+|   |-- storage.py       # Funciones para guardar los datos (CSV, Sheets, Mongo)
+|   |-- visualization.py # Funciones para visualización de datos
+|-- dashboard/           # Código para el dashboard interactivo con Streamlit
+|   |-- app.py           # Archivo principal del dashboard
+|   |-- components/      # Componentes reutilizables del dashboard
+|-- tests/               # Pruebas unitarias y de integración
+|-- requirements.txt     # Lista de dependencias del proyecto
+|-- README.md            # Documentación general del proyecto
+```
 
 ---
 

@@ -1,0 +1,3 @@
+<!-- Use this file to provide workspace-specific custom instructions to Copilot. For more details, visit https://code.visualstudio.com/docs/copilot/copilot-customization#_use-a-githubcopilotinstructionsmd-file -->
+
+Este proyecto es un análisis de sentimientos en Python que utiliza datos de Twitter relacionados con los mercados de bonos y acciones. Por favor, prioriza sugerencias relacionadas con bibliotecas como `tweepy`, `TextBlob` y `NLTK`.
